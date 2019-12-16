@@ -15,7 +15,7 @@ main {
   width: calc(76% - 10px);
   height: 100vh;
   background-image: url("../src/depositphotos_32904189-stock-photo-pretty-girl.jpg");
-  background-size: 85% auto;
+  background-size: cover;
 }
 main footer {
   position: absolute;
