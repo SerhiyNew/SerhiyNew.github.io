@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  width: calc(76%-10px);
+  height: 100vh;
+  background-image: url("../src/depositphotos_32904189-stock-photo-pretty-girl.jpg");
+  background-size: 85% auto;
+}
+main footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #e1dadc9f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main footer span {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: black;
+  cursor: pointer;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24%;
+  height: 100%;
+  background-color: #fc5095;
+  padding: 10% 0 0 10px;
+}
+aside .content {
+  background-color: #f6f5f5;
+  height: 100%;
+  padding: 20% 10%;
+  text-transform: uppercase;
+}
+aside .content .heart {
+  position: absolute;
+  top: 29%;
+  left: 1%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 8px solid #fc5095;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+aside .content .heart span {
+  line-height: 40px;
+  color: #fc5095;
+  font-size: 28px;
+}
+aside .content .title {
+  margin-bottom: 40%;
+}
+aside .content .title p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fc5095;
+  margin-bottom: 7%;
+}
+aside .content .title span {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+aside .content .action {
+  width: auto;
+}
+aside .content .action p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+}
+aside .content .action .btnGo {
+  margin: 7% 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 900;
+  font-size: 22px;
+  width: 100%;
+  background-color: #fc5095;
+  color: white;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
